@@ -57,12 +57,12 @@ DateTime future;
 Supabase db;
 
 // Put your supabase URL and Anon key here...
-String supabase_url = "https://vyxvjuzabusxpnkhobxn.supabase.co";
-String anon_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ5eHZqdXphYnVzeHBua2hvYnhuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTg1MTY2OTcsImV4cCI6MjAzNDA5MjY5N30.GivX-ZmS9ZNgbzHHcVSnKeIQhk9YOjA8JhmNEuSpPD8";
+String supabase_url = "YOUR_SUPABASE URL";
+String anon_key = "YOUR_ANON_KEY";
 
 // put your WiFi credentials (SSID and Password) here
-const char *ssid = "xhydracore";
-const char *psswd = "11111111";
+const char *ssid = "YOUR_WIFI_SSID";
+const char *psswd = "YOUR_WIFI_PASS";
 
 // User Credentials, not Supabase Account
 // OPTIONAL (only use this if you activate RLS) !!
